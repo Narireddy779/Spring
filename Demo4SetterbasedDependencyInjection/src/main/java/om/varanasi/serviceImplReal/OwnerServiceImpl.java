@@ -18,13 +18,13 @@ public class OwnerServiceImpl implements Owner {
 	public OwnerServiceImpl() {
 		System.out.println("OwnerServiceImpl default const Bean Created@....");
 	};
-	/*
+	
 	public OwnerServiceImpl(OwnerRepository ownerRepository, int add) {
 		this.ownerRepository = ownerRepository;
 		this.add = add;
 		System.out.println("Real OwnerServiceImplementation Bean created!....");
 	}
-	 */
+	 
 	@Override
 	public String addData() {
 

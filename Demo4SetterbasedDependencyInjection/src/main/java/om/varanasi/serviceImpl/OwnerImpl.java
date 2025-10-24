@@ -3,7 +3,7 @@ package om.varanasi.serviceImpl;
 import om.varanasi.service.Owner;
 
 public class OwnerImpl implements Owner{
-	private int add;
+	 private final int add;
 	
 	public OwnerImpl(int add) {
 		this.add = add;
