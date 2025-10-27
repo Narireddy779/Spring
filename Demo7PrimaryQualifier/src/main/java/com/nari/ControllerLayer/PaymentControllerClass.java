@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import com.nari.ServiceLayer.PaymentService;
 
 @Configuration
-@ComponentScan("com.nari")
+@ComponentScan
 public class PaymentControllerClass {
 	public static void main(String[] args) {
 		ApplicationContext context = new AnnotationConfigApplicationContext(PaymentControllerClass.class);
